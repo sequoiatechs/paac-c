@@ -21,7 +21,7 @@ h1 {
   margin: 20px auto 0 auto;
   border-radius: 4px;
 	margin-top: 130px;
-	width: 1170px;
+	/*width: 1170px;*/
 }
 
 #slider ul {
@@ -38,8 +38,8 @@ h1 {
   float: left;
   margin: 0;
   padding: 0;
-  width: 500px;
-  height: 300px;
+  width: 1170px;
+  height: 700px;
   background: #ccc;
   text-align: center;
   line-height: 300px;

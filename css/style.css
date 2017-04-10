@@ -39,6 +39,21 @@ a {
 	transition: 300ms;
 }
 
+.feature-img-inyec{
+	width: 305px;
+	height: 190px;
+}
+
+
+
+#myMap{
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	height: 400px;
+}
+
+
 .link-active{
 	color: #f9b233;
 }
@@ -1317,6 +1332,11 @@ a.video-button i{
 .contact-form textarea{
 	border: none;
 	border-bottom: 1px solid #909090;
+	border-left: 1px solid #909090;
+	border-right: 1px solid #909090;
+	border-top: 1px solid #909090;
+
+
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	width: 100%;
