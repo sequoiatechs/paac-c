@@ -32,6 +32,11 @@ h1 {
   list-style: none;
 }
 
+.slider-img{
+  width: 1170px;
+  height: 550px;
+}
+
 #slider ul li {
   position: relative;
   display: block;
@@ -39,7 +44,7 @@ h1 {
   margin: 0;
   padding: 0;
   width: 1170px;
-  height: 700px;
+  height: 550px;
   background: #ccc;
   text-align: center;
   line-height: 300px;
