@@ -44,15 +44,74 @@ a {
 	height: 190px;
 }
 
+.feature{
+	width: 280px;
+	height: 200px;
+	background-color: #f9b233;
+	margin-left: 5px;
+}
+
+.ture1{
+	background-image: url('../img/ture1.png');
+	background-size: cover;
+}
+
+.ture2{
+	background-image: url('../img/ture2.png');
+	background-size: cover;
+}
+
+.ture3{
+	background-image: url('../img/ture3.png');
+	background-size: cover;
+}
+
+.ture4{
+	background-image: url('../img/ture4.png');
+	background-size: cover;
+}
+
+.ture-inside{
+	background-color: rgba(255, 255, 255, 0.2);
+	text-align: center;
+	height: 53px;
+	margin-top: 75px;
+}
+
+.ture-inside h4{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 500;
+}
+
 
 
 #myMap{
 	margin: 0;
 	padding: 0;
-	width: 300px;
-	height: 400px;
+	width: 100%;
+	height: 300px;
 }
 
+.us-full-bg{
+	height: 700px;
+	background-image: url('../img/us-bg.png');
+	width: 100%;
+}
+
+.servicio-1{
+	background: url('..img/inyect-1.png');
+	width: 305px;
+	height: 190px;
+}
+.left-line{
+	border-right: 1px solid #f9b233;
+}
+
+.servicio-1:hover{
+	background-color: green;
+}
 
 .link-active{
 	color: #f9b233;
@@ -105,22 +164,41 @@ a {
 	/*font-weight:700;
 	font-size:14px;
 	color: #FFFFFF;*/
+	/*color: #191021;*/
+}
+
+.main-navigation-vit ul li a:hover{
+	color: #f9b233;
 }
 
 .especial{
-	/*border: 2px solid #f9b233;
-	border-radius: 50px;*/
 	color: #f9b233;
 	font-weight: bold;
 	font-size: 15px;
+	border: 1px solid #f9b233;
+  border-radius: 50px;
 }
 
-/*.especial:hover{
+.especial:hover{
 	background-color: #f9b233;
-	border: 2px solid #f9b233;
+	border: 1px solid #f9b233;
 	border-radius: 50px;
 	color: #ffffff;
-}*/
+}
+
+.especial-active{
+	color: #fff;
+	background-color: #f9b233;
+	border-radius: 3px;
+}
+
+.especial-active{
+	color: #fff;
+}
+
+.none-hover:hover{
+	color: #f9b233;
+}
 
 
 
@@ -345,7 +423,7 @@ textarea:focus{
   margin-bottom: 20px;
 }
 .navigation{
-	padding: 25px 15px;
+	padding: 10px 15px;
 	overflow: hidden;
 	border-bottom: 1px solid #ebebeb;
 }
@@ -425,7 +503,7 @@ textarea:focus{
 	border-radius: 2.5px;
 }
 .cover h1{
-	font-size: 72px;
+	font-size: 60px;
 	line-height: 52px;
 	font-weight: 900;
 	margin-bottom: 30px;
@@ -443,6 +521,7 @@ textarea:focus{
 }
 .cover-img img{
 	margin-left: 70px;
+	width: 500px;
 }
 .modal {
   text-align: center;
@@ -454,6 +533,10 @@ textarea:focus{
     content: " ";
     height: 100%;
   }
+}
+.cover-img img{
+	margin-left: 70px;
+	width: 500px;
 }
 .modal-dialog {
   display: inline-block;
@@ -973,6 +1056,7 @@ a.video-button i{
 	background-color: #fafcfc;
 	padding-bottom: 120px;
 }
+
 .supplement-facts .tab-title{
 	padding-bottom: 20px;
 	text-transform: uppercase;
@@ -1037,6 +1121,112 @@ a.video-button i{
 .supplement-facts .nav-pills>li.active+li a{
 	border: none;
 }
+
+
+
+
+
+
+
+
+
+/*Sumplementos propios*/
+.supplement-facts2{
+	overflow: none;
+	background-color: #fafcfc;
+	padding-bottom: 120px;
+}
+
+.supplement-facts2 .tab-title{
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	border-bottom: 5px solid #333740;
+}
+.supplement-facts2 .tab-title h3{
+	font-size: 24px;
+	font-weight: 800;
+}
+.supplement-facts2 .tab-title h4{
+	font-weight: 800;
+}
+.supplement-facts2 .tab-title h4 .small{
+	font-weight: 300;
+	color: #333740;
+	display: block;
+	margin-top: 10px;
+	text-align: right;
+}
+.supplement-facts2 .tab-title h4 span{
+	display: block;
+}
+.supplement-facts2 ul.nav-pills{
+	margin-bottom: 50px;
+}
+.supplement-facts2 .product-content>div{
+	opacity: 0;
+}
+.supplement-facts2 .product-content .active{
+	opacity: 1;
+}
+.supplement-facts2 .nav-pills>li>a{
+	border-radius: 0;
+}
+.supplement-facts2 .nav-pills>li>a:hover{
+	background-color: transparent;
+}
+.supplement-facts2 .nav>li>a{
+	padding: 8px 0;
+	font-weight: 300;
+	color: #333740;
+	text-transform: capitalize;
+	border-top: 1px solid #ebebeb;
+}
+.supplement-facts2 .nav li:first-child a{
+	border-top: none;
+}
+.supplement-facts2 .nav li:last-child a{
+	border-bottom: 1px solid #ebebeb;
+}
+.supplement-facts2 .nav-pills>li.active>a,
+.supplement-facts2 .nav-pills>li.active>a:focus,
+.supplement-facts2 .nav-pills>li.active>a:hover{
+	-webkit-box-shadow: 0 3px 10px 3px rgba(0,0,0,.2);
+	box-shadow: 0 3px 10px 3px rgba(0,0,0,.2);
+	background-color: #fff;
+	color: #333740;
+	padding: 20px;
+	margin: 0 -10px;
+}
+
+.supplement-facts2 .nav-pills>li.active+li a{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .download-button{
 	background-color: #f9b233;
 	padding: 15px 40px;
@@ -1237,7 +1427,7 @@ a.video-button i{
 =            subscribe-form            =
 ==============================*/
 .subscribe-form .color-overlay{
-	background-color: rgba(0,0,0,.85);
+	background-color: rgba(27,27,27, 1);
 	padding-bottom: 100px;
 	overflow: hidden;
 }

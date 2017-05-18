@@ -55,20 +55,20 @@
       <nav id="main-navbar">
         <div class="container navigation">
           <div class="pull-left">
-            <a class="logo-left" href="index.html"><img src="img/logo.png" class="img-responsive" alt="logo"></a>
+            <a class="logo-left" href="index.html"><img src="img/logo.png" class="img-responsive" alt="logo" style="width: 131px; height: 101px;"></a>
           </div>
           <div class="pull-right menu-icon">
             <!-- <button  id="open-button">
               <i class="fa fa-bars"></i>
             </button> -->
             <nav class="main-navigation-vit">
-              <ul>
+              <ul style="margin-top: 25px;">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="productos.html">Productos</a></li>
                 <li><a href="puntos.html">Puntos de Venta</a></li>
-                <li><a href="contacto.html" class="link-active">Contacto</a></li>
-                <li><a href="inyectologia.html" class="especial">Servicios de Inyectología</a></li>
+                <li><a href="contacto.html" class="especial-active">Contacto</a></li>
+                <li><a href="inyectologia.html">Servicios de Inyectología</a></li>
               </ul>
 
             </nav>
@@ -84,7 +84,7 @@
   <!--
   START ORDER-NOW
   ======================================== -->
-  <section id="order-now"  style="margin-top: 150px;">
+  <section id="order-now"  style="margin-top: 70px; margin-left: 120px;">
     <!-- order now -->
     <div class="order-now">
       <div class="gradient hidden-xs"></div>
@@ -92,7 +92,7 @@
       <div class="container onder-now-area">
         <div class="row">
           <div class="col-sm-7 left-part">
-            <img src="img/bottle_with_pack.png" alt="image">
+            <img src="img/bottle_with_pack.png" alt="image" style="margin-left: -75px; margin-top: margin-top: -75px;">
           </div>
           <div class="col-sm-4 right-part">
             <div class="title">
@@ -110,55 +110,67 @@
 
 
   <!--
-  START CONTACT-FORM
+  START SUBSCRIBE-FORM
   ======================================== -->
-  <section id="contact" class="contact-form">
-    <div class="page-header">
-        <h2><span class="wow fadeInLeft" data-wow-delay=".25s">Contestaremos</span> <span class="devider wow fadeInUp" data-wow-delay=".25s"> | </span> <span class="right-span wow fadeInRight" data-wow-delay=".25s">Tus dudas</span></h2>
+  <section class="subscribe-form">
+    <div class="color-overlay">
+     <div class="page-header">
+        <h2><span class="wow fadeInLeft" data-wow-delay=".25s">Contestaremos</span> <span class="devider wow fadeInUp" data-wow-delay=".25s"> | </span> <span class="right-span wow fadeInRight" data-wow-delay=".25s">tus dudas</span></h2>
         <p class="subtitle wow fadeInUp" data-wow-delay=".25s">Siempre estámos felices de ayudar a nuestros clientes.</p>
     </div> <!-- //page-header -->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <form id="contact-form" class="form" action="send.php" method="post" name="send">
-            <div class="row">
-              <p class="col-sm-6">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" class="requiredField" placeholder="Nombre">
-              </p>
-              <p class="col-sm-6">
-                <label for="mail">Email</label>
-                <input type="email" id="mail" name="email" class="requiredField" placeholder="Email">
-              </p>
-              <p class="col-sm-12">
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" class="requiredField" placeholder="Asunto">
-              </p>
-              <p class="col-sm-12">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" class="requiredField" placeholder="Tu mensaje" data-new-placeholder="Your message" cols="30" rows="10" ></textarea>
-              </p>
-              <p class="col-sm-6 col-sm-offset-3 text-center"><input name="submit" type="submit" class="btn order-button btn-primary" value="Enviar"></p>
-            </div>
-          </form>
-        </div>
-      </div> <!-- //row -->
-    </div> <!-- //container -->
-  </section>
-  <!-- END CONTACT-FORM ========================== -->
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+           <div class="col-md-6">
+             <div id="myMap"></div>
+           </div>
+           <div class="col-md-6" style="color: #FFFFFF; text-align: center; margin-top: 5px;">
+
+             <div class="col-md-4" style="text-align: left;">
+
+               <h3 style="color: #FFFFFF; font-size: 17px;"><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección <br></h3>
+               <p style="font-weight: 300; margin-bottom: 40px; margin-left: 20px; margin-top: 5px;">Grecia N32-112 <br>
+                  Y la Granja. <br> Quito, Ecuador.
+               </p>
+
+               <h3 style="color: #FFFFFF; font-size: 17px;"><i class="fa fa-phone" aria-hidden="true"></i> Teléfonos <br></h3>
+               <p style="font-weight: 300; margin-bottom: 40px; margin-left: 20px; margin-top: 5px; width: 180px;">(02)  224 - 2465 <br>
+               (+593) 099 - 844 - 0397 <br>
+               (+593) 099 - 835 - 2572
+               </p>
+
+               <h3 style="color: #FFFFFF; font-size: 17px;"><i class="fa fa-envelope" aria-hidden="true"></i> Emails <br></h3>
+               <p style="font-weight: 300; margin-left: 20px; margin-top: 5px;">info@paacc.com <br>
+                  juancarlos@paacc.com
+               </p>
+             </div>
+
+             <div class="col-md-8 social-icon">
+               <h3 style="color: #FFFFFF; font-size: 17px; text-align: left;">PAAC - C</h3>
+               <p style="text-align: left; font-weight: 300; font-size: 14px; margin-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
 
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div id="myMap"></div>
-      </div>
-    </div>
-  </div>
-</section>
 
+               <ul class="list-inline">
+                 <li><a href="#" class="wow zoomIn" data-wow-delay=".25s"><i class="fa fa-facebook"></i></a></li>
+                 <li><a href="#" class="wow zoomIn" data-wow-delay=".35s"><i class="fa fa-twitter"></i></a></li>
+                 <li><a href="#" class="wow zoomIn" data-wow-delay=".45s"><i class="fa fa-youtube"></i></a></li>
+                 <li><a href="#" class="wow zoomIn" data-wow-delay=".55s"><i class="fa fa-dribbble"></i></a></li>
+               </ul>
+             </div>
+
+
+
+
+           </div>
+         </div>
+
+       </div> <!-- //row -->
+     </div> <!-- //container -->
+   </div>
+  </section> <!-- //subscribe-form -->
+  <!-- END SUBSCRIBE-FORM ========================== -->
 
 
   <!--
@@ -168,28 +180,22 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <p class="title">© PAAC VITAL Todos los derechos reservados</p>
-          <ul class="list-inline nav-menu-footer">
-            <li><a href="#">La emmpresa</a></li>
-            <li><a href="#">Terminos</a></li>
-            <li><a href="#">Privacidad</a></li>
-            <li><a href="#">Contacto</a></li>
+          <p class="title">Copyright © 2017 PAAC Mega C. Todos los derechos reservados.</p>
+          <ul class="list-inline nav-menu-footer" style="margin-top: -20px; margin-left: -9px;">
+            <li><a href="nosotros.html">La Empresa</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="puntos.html">Puntos de Venta</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </div>
         <div class="col-sm-6 social-icon">
-          <ul class="list-inline text-right">
-            <li><a href="#" class="wow zoomIn" data-wow-delay=".25s"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#" class="wow zoomIn" data-wow-delay=".35s"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#" class="wow zoomIn" data-wow-delay=".45s"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#" class="wow zoomIn" data-wow-delay=".55s"><i class="fa fa-dribbble"></i></a></li>
-          </ul>
+
         </div>
       </div> <!-- //row -->
     </div>  <!-- //container -->
   </footer> <!-- //copyright -->
   <!-- END FOOTER ========================== -->
 </div> <!-- //content-wrap -->
-
 
 
 
