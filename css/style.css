@@ -1521,10 +1521,10 @@ a.video-button i{
 .contact-form input[type="email"],
 .contact-form textarea{
 	border: none;
-	border-bottom: 1px solid #909090;
-	border-left: 1px solid #909090;
-	border-right: 1px solid #909090;
-	border-top: 1px solid #909090;
+	border-bottom: 1px solid #e2e2e2;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	border-top: 1px solid #e2e2e2;
 
 
 	-webkit-box-shadow: none;

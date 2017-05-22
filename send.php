@@ -1,6 +1,6 @@
-﻿<?php 
+﻿<?php
 $errors = '';
-$myemail = 'sample@gmail.com';
+$myemail = 'juanc1200@ghotmail.com';
 if(empty($_POST['name'])  ||
    empty($_POST['email']) ||
    empty($_POST['subject']) ||
@@ -15,7 +15,7 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 if (!eregi(
-"^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", 
+"^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$",
 $email))
 {
 $errors .= "\n Error: Invalid Email Address";
