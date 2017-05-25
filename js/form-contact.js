@@ -28,7 +28,7 @@ $(document).ready(function() {
     var formInput = $(this).serialize();
     $.post($(this).attr('action'),formInput, function(data){
     $('form#contact-form').slideUp("fast", function() {
-    $(this).before('<div class="success">Thank you. Your email was sent successfully.</div>');
+    $(this).before('<div class="success">Gracias tu mensaje fue enviado correctamente.</div>');
     });
     });
     }
