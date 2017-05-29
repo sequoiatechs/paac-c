@@ -103,8 +103,9 @@ a {
 }
 
 .us-full-bg{
-	height: 700px;
+	height: 350px;
 	background-image: url('../img/us-bg.png');
+	background-size: cover;
 	width: 100%;
 }
 
@@ -1538,7 +1539,7 @@ a.video-button i{
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	width: 100%;
-	padding: 15px 0;
+	padding: 5px 0;
 	margin-bottom: 30px;
 }
 .contact-form input[type="submit"].order-button{
